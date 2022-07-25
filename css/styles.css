@@ -1,0 +1,39 @@
+:root {
+    --text-color: #757575 ; 
+    --title-color: #212121; 
+    
+}
+
+/* Основной цвет текста */
+
+p {
+    color: var(--text-color);
+}
+
+/* Цвет заголовков */
+
+h2 h3 {
+    color: var(--title-color);
+}
+
+/* Убирает подчеркивание ссылок */
+
+body a {
+    text-decoration: none;
+}
+
+/* Убирает точки списков */
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align:center;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+    font-family: roboto; 
+}
+
